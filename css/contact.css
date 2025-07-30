@@ -1,4 +1,4 @@
-/* Estilos para la sección de contacto */
+
 .contact-section {
   background: linear-gradient(135deg, #5a1717 0%, #231242 100%);
   color: white;
@@ -53,7 +53,7 @@
   color: #a78bfa;
 }
 
-/* Estilos del formulario */
+
 .contact-form {
   display: flex;
   flex-direction: column;
