@@ -3,13 +3,12 @@ body {
     font-family: Arial, sans-serif;
 }
 html {
-  scroll-behavior: smooth; /* Desplazamiento suave en toda la página */
+  scroll-behavior: smooth; 
 }
-/* CSS mínimo para header */
-/* --- Header Fijo --- */
+
 .header {
   position: fixed;
-  top: 0; /* ¡Clave para que quede arriba! */
+  top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
@@ -18,7 +17,6 @@ html {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Contenedor flexible --- */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -29,17 +27,15 @@ html {
   height: 80px;
 }
 
-/* --- Logo adaptable --- */
 .logo-link {
   display: flex;
   align-items: center;
 }
 .logo {
   width: 70px;
-  height: auto; /* Evita deformaciones */
+  height: auto; 
 }
 
-/* --- Menú de navegación --- */
 .nav-list {
   display: flex;
   gap: 25px;
@@ -50,12 +46,12 @@ html {
 
 .nav-link {
   text-decoration: none;
-  color: white; /* ¡Cambiado a blanco! */
+  color: white;
   font-weight: 500;
   transition: color 0.3s;
 }
 .nav-link:hover {
-  color: #f0f0f0; /* Efecto hover sutil */
+  color: #f0f0f0; 
 }
 .nav-link--external::after {
   content: "↗";
@@ -63,7 +59,7 @@ html {
   font-size: 0.9em;
 }
 
-/* --- Botón de Contacto --- */
+
 .cta-nav {
   background: #4f46e5;
   color: white !important;
@@ -71,10 +67,10 @@ html {
   border-radius: 6px;
 }
 .cta-nav:hover {
-  background: #4338ca; /* Oscurece al hover */
+  background: #4338ca; 
 }
 
-/* --- Link activo (Inicio) --- */
+
 .nav-link.active {
   font-weight: bold;
   border-bottom: 2px solid white;
@@ -180,7 +176,7 @@ h2::after {
   transform: translateY(-2px);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .mi-trabajo-content {
     flex-direction: column;
@@ -196,7 +192,7 @@ h2::after {
   }
 }
 
-/* Contenedor principal */
+
 .carousel-container2 {
     position: relative;
     width: 100%;
@@ -205,7 +201,7 @@ h2::after {
     background-color: #221453;
 }
 
-/* Fondo difuminado */
+
 .background-image {
     position: absolute;
     width: 100%;
@@ -216,7 +212,7 @@ h2::after {
     z-index: 1;
 }
 
-/* Carrusel */
+
 .carousel {
     display: flex;
     width: 100%;
@@ -235,7 +231,7 @@ h2::after {
     object-fit: cover;
 }
 
-/* Texto superpuesto */
+
 .carousel-text {
     display: none;
     position: absolute;
@@ -251,7 +247,7 @@ h2::after {
     z-index: 2;
 }
 
-/* Botones de navegación */
+
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -273,7 +269,7 @@ h2::after {
     background: rgba(255, 255, 255, 0.7);
 }
 
-/* Indicadores */
+
 .carousel-indicators {
     position: absolute;
     bottom: 20px;
@@ -425,7 +421,7 @@ h2::after {
   margin-bottom: 40px;
 }
 
-/* Flex para alinear video + texto */
+
 .video-container {
   display: flex;
   justify-content: center;
@@ -434,7 +430,7 @@ h2::after {
   flex-wrap: wrap;
 }
 
-/* Video */
+
 .responsive-video {
   flex: 1 1 480px;
   aspect-ratio: 16 / 9;
@@ -456,7 +452,7 @@ h2::after {
   border-radius: 12px;
 }
 
-/* Texto */
+
 .texto-productividad {
   flex: 1 1 400px;
   max-width: 640px;
@@ -477,7 +473,7 @@ h2::after {
   color: #444;
 }
 
-/* Responsive para móviles */
+
 @media (max-width: 768px) {
   .video-container {
     flex-direction: column;
@@ -541,7 +537,7 @@ h2::after {
   border-radius: 12px;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .video-doble-box {
     flex: 1 1 100%;
